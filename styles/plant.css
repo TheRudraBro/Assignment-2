@@ -83,6 +83,7 @@ main{
 /* plants overview section */ 
 .plants-overview{
     padding: 150px 0;
+    
 }
 .overview-title{
     font-weight: 700;
@@ -95,8 +96,10 @@ main{
     margin-bottom: 40px;
 }
 .plants-img-container{
+   
     display: grid;
     grid-template-columns: repeat(4, 1fr)
+    
     
 }
 .plants-card {
@@ -205,6 +208,52 @@ main{
 /* bunch section style */
 .bunch{
     text-align: center;
+}
+
+
+/* footer section */
+.footer{
+    max-width: 1640px;
+    margin: 0 auto;
+}
+
+.plants-brand{
+    padding: 50px;
+   display: flex;
+   justify-content: space-between;
+}
+.brand-describe
+{
+    font-size: 22px;
+}
+.brand-details{
+   text-decoration: none;
+    font-size: 22px;
+display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.brand-item{
+   list-style: none;
+   margin-right: 30px;
+
+}
+.brand-links{
+  display: grid;
+  justify-content: center;
+  gap: 50px; 
+  flex-wrap: wrap;
+  text-decoration: none;
+    
+}
+
+.social-media img {
+  margin-right: 30px;
+}
+.twit{
+    margin-bottom: 5px;
+    width: 30px;
 }
 
 
