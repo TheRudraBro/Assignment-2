@@ -1,0 +1,175 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+ 
+}
+/* shared style */
+.display-flex{
+display: flex;
+
+}
+
+/* dark-02 */
+.text-gray{
+    color: #8987A1;
+}
+
+/* dark-03 */
+.text-light-gray{
+    color: #252432;
+}
+
+.text-flower{
+    color:#E95A08 ;
+}
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* header style  */
+
+
+
+/* navbar related style  */
+.navbar{
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.nav-item{
+   list-style: none;
+   margin-right: 30px;
+
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+}
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* banner related style */
+.banner{
+     display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 80px; 
+}
+.banner-content{
+    max-width: 850px;
+    margin: 150px 0px;
+    text-align: left;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 65px;
+}
+.banner-desc{
+    font-size: 22px;
+}
+.banner-thumbnail img{
+    width: 100%;
+   height: auto;
+}
+
+/* plants overview section */ 
+.plants-overview{
+    padding: 150px 0;
+}
+.overview-title{
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+}
+.overview-description{
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.plants-img-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr)
+    
+}
+.plants-card {
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+}
+
+.plants-card img {
+  width: 100%;
+ 
+}
+.plants-title {
+    font-weight:500 ;
+  font-size: 22px;
+  margin: 10px 0 5px;
+}
+.plants-price{
+    font-weight:700;
+  font-size: 22px;
+ 
+}
+.btn-primary{
+    
+    padding: 8px 50px;
+    background-color: #E95A08;
+    color: white;
+    border: none;
+    border-radius: 5px;
+   
+}
+.btn-primary:hover{
+    background-color: goldenrod ;
+}
+
+
+/* Plant lover section style */
+
+.plants-lover{
+    gap: 60px;
+}
+
+.plants-lover-title{
+    font-weight: 700 ;
+    font-size: 50px;
+}
+.plants-lover-description{
+    font-size: 22px;
+    
+}
+.lover-card{
+    /* padding: 0px; */
+    /* border: 1px solid whitesmoke;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.1); */
+    margin-bottom: 20px;
+  
+   
+}
+
+/* Responsive media query */
+
+@media screen and (max-width: 576px) {
+    .logo{
+        align-items: left;
+    }
+    .shop-part{
+        align-items: right;
+    }
+    .menu-part{
+        display: none;
+    }
+    
+
+}
+
