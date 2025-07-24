@@ -297,7 +297,166 @@ display: flex;
     .menu-part{
         display: none;
     }
-    
+
+    /* banner */
+      .banner {
+    flex-direction: column-reverse;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .banner-content {
+    margin: 0;
+    max-width: 100%;
+  }
+
+  .banner-title {
+    font-size: 32px;
+  }
+
+  .banner-desc {
+    font-size: 16px;
+  }
+
+  .banner-thumbnail img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* plants section */
+   .plants-img-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    justify-items: center;
+  }
+
+  .plants-card {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .overview-title {
+    font-size: 32px;
+  }
+
+  .overview-description {
+    font-size: 16px;
+  }
+
+    /* plants lover section */
+
+     .plants-lover {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .lover-img-container {
+    width: 100%;
+    text-align: center;
+  }
+
+  .lover-img-container img {
+    max-width: 100%;
+  }
+
+  .plants-lover-title {
+    font-size: 32px;
+  
+    text-align: center;
+  }
+
+  .plants-lover-description {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  /* dealing Section */
+  .dealing-overview {
+    padding: 30px 20px;
+  }
+
+  .deals-title {
+    font-size: 32px;
+  }
+
+  .deals-description {
+    font-size: 16px;
+  }
+
+  .deals-theme {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .first-theme {
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .first-theme img,
+  .second-theme {
+    width: 100%;
+  }
+
+   /* Bunch (Subscribe) Section */
+  .bunch {
+    padding: 40px 20px;
+    height: auto;
+    background-size: cover;
+  }
+
+  .bunch-title {
+    font-size: 28px;
+  }
+
+  .email-input {
+    font-size: 16px;
+    padding: 12px 20px;
+    width: 50%;
+    margin-bottom: 10px;
+  }
+
+  .submission {
+    width: 50%;
+    font-size: 16px;
+    padding: 12px;
+  }
+
+  /* Footer Section */
+  .plants-brand {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .brand-overview img {
+    width: 100px;
+  }
+
+  .brand-describe {
+    font-size: 16px;
+  }
+
+  .brand-details,
+  .brand-links {
+    flex-direction: column;
+    gap: 10px;
+    font-size: 16px;
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .social-media img {
+    width: 24px;
+  }
 
 }
 
