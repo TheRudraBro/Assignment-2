@@ -7,10 +7,6 @@ body {
   margin: 0;
 }
 
-/* Performance optimizations for mobile */
-* {
-  -webkit-tap-highlight-color: transparent;
-}
 
 img {
   max-width: 100%;
@@ -328,7 +324,7 @@ button {
 .bunch {
   margin-top: 120px;
 
-  background-image: url(Images/news-letter-bg.png);
+  background-image: url('./Images/news-letter-bg.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
