@@ -208,11 +208,36 @@ main{
 /* bunch section style */
 .bunch{
     text-align: center;
+    padding: 70px;
 }
+.bunch-title{
+    font-weight: 700;
+    font-size: 50px;
+}
+.email-input{
+    font-size: 20px;
+    padding: 5px 200px;
+    text-align: left;
+}
+.submission{
+    font-weight: 550;
+    font-size:20px ;
 
+}
+.background-image{
+   
+    background-image: url(../Images/news-letter-bg.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+   
+}
 
 /* footer section */
 .footer{
+    padding: 100px;
     max-width: 1640px;
     margin: 0 auto;
 }
