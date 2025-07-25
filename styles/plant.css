@@ -474,7 +474,9 @@ button {
   .nav-links {
     flex-wrap: wrap;
     gap: 10px;
-  }
+  } 
+  .navbar{
+    align-items:right;
 
   .menu-part {
     display: none;
