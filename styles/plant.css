@@ -476,8 +476,11 @@ button {
   .nav-link {
     flex-wrap: wrap;
     gap: 10px;
-    margin-left: 40px;
+    
   } 
+  .shop-part{
+    margin-left: 40px;
+    }
 
   .menu-part {
     display: none;
