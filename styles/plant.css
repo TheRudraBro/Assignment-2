@@ -470,12 +470,12 @@ button {
   }
 
   .logo {
-    max-width: 120px;
+    max-width: 100px;
     height: auto;
   }
 
   .nav-link {
-  
+  height: 25px;
     
     
   } 
