@@ -487,18 +487,14 @@ button {
   .menu-part {
     display: none;
   }
-
-.menu-part {
-  display: none; /* hides Home, Shop, About Us */
+  
+.nav-links li:not(:last-child) {
+  display: none;
 }
 
 .shop-part {
-  display: flex !important;  /* force cart to show */
-  align-items: center;
   gap: 6px;
   font-size: 14px;
-  white-space: nowrap;
-  color: #252432;
   text-decoration: none;
 }
   
