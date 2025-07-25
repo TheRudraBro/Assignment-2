@@ -488,20 +488,19 @@ button {
     display: none;
   }
 
-  .shop-part {
- 
-    
-    
-    display: flex ;
+.menu-part {
+  display: none; /* hides Home, Shop, About Us */
+}
+
+.shop-part {
+  display: flex !important;  /* force cart to show */
   align-items: center;
   gap: 6px;
   font-size: 14px;
   white-space: nowrap;
-
-  text-decoration: none
-      
-    
-  }
+  color: #252432;
+  text-decoration: none;
+}
   
 
   /* Banner */
