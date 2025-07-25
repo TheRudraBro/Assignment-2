@@ -465,7 +465,7 @@ button {
     padding: 10px 20px;
     
     justify-content: end;
-    margin-left: 50px;
+    
   }
 
   .logo {
@@ -473,9 +473,10 @@ button {
     height: auto;
   }
 
-  .nav-links {
+  .nav-link {
     flex-wrap: wrap;
     gap: 10px;
+    margin-left: 50px;
   } 
 
   .menu-part {
