@@ -463,7 +463,8 @@ button {
   /* Header and Navigation */
   .navbar {
     padding: 10px 20px;
-    flex-wrap: wrap;
+    
+    justify-content: space-between;
   }
 
   .logo {
