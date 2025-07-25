@@ -478,7 +478,9 @@ button {
   display: none;}
   
   .nav-link {
-  height: 17px;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: 40px;
     
     
   } 
@@ -488,14 +490,12 @@ button {
     display: none;
   }
   
-.nav-links li:not(:last-child) {
-  display: none;
-}
+
 
 .shop-part {
-  gap: 6px;
+
   font-size: 14px;
-  text-decoration: none;
+  
 }
   
 
