@@ -465,6 +465,7 @@ button {
     padding: 10px 20px;
     
     justify-content: end;
+    margin-left: 50px;
   }
 
   .logo {
