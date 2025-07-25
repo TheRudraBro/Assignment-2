@@ -475,12 +475,10 @@ button {
 
   .nav-link {
   
-    gap: 10px;
+    
     
   } 
-  .shop-part{
   
-    }
 
   .menu-part {
     display: none;
@@ -488,6 +486,7 @@ button {
 
   .shop-part {
     font-size: 14px;
+    margin-right:10px;
   }
 
   /* Banner */
