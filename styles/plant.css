@@ -462,12 +462,10 @@ button {
 
   /* Header and Navigation */
   .navbar {
-    display:flex;
     
-      justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  position: relative;
+  
     
   }
   
@@ -491,35 +489,13 @@ button {
   }
 
   .shop-part {
-    display: flex;
-    align-items: center;
-    gap: 6px;
+ 
     
     font-size: 14px;
-      white-space: nowrap; 
-      text-decoration: none;
+      
     
   }
-  .logo-cart-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  padding: 0 10px;
-}
-
-.logo-cart-container .logo {
-  max-width: 100px;
-  height: auto;
-}
-
-.logo-cart-container .shop-part {
-  font-size: 14px;
-  white-space: nowrap; /* Ensure icon and text stay in one line */
-  display: flex;
-  align-items: center;
-  gap: 5px; /* space between icon and text */
-}
+  
 
   /* Banner */
   .banner {
