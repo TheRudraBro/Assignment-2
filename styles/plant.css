@@ -462,18 +462,23 @@ button {
 
   /* Header and Navigation */
   .navbar {
-    padding: 10px 20px;
+    display:flex;
     
-    justify-content: space-between;
-    align-item: center;
+      justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  position: relative;
     
   }
+  
 
   .logo {
     max-width: 100px;
     height: auto;
   }
-
+.nav-links{
+  display: none;}
+  
   .nav-link {
   height: 17px;
     
@@ -486,8 +491,14 @@ button {
   }
 
   .shop-part {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    
     font-size: 14px;
-    margin-left: 20px; display: flex;
+      white-space: nowrap; 
+      text-decoration: none;
+    
   }
   .logo-cart-container {
   display: flex;
