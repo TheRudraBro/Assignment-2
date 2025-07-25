@@ -464,7 +464,7 @@ button {
   .navbar {
     padding: 10px 20px;
     
-    justify-content: right;
+    justify-content: end;
   }
 
   .logo {
