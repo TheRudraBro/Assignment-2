@@ -476,7 +476,7 @@ button {
     gap: 10px;
   } 
   .navbar{
-    align-items:right;
+    align-items:right;}
 
   .menu-part {
     display: none;
